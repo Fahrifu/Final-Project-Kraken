@@ -1,9 +1,4 @@
-/* ----------------------------------------------------
-   UiA Kraken — Player Profile Logic (players.js)
-   - Reads ?handle= from URL
-   - Loads /data/players.json
-   - Renders hero + stats + socials + highlights
--------------------------------------------------------*/
+
 
 (function () {
   const heroInner = document.getElementById('player-hero-inner');

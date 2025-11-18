@@ -1,11 +1,4 @@
-/* ----------------------------------------------------
-   UiA Kraken Esports — Teams Page Logic (teams.js)
-   - Loads /data/teams.json
-   - Tabbed teams by title
-   - Panels with roster, staff, achievements
-   - Deep-linking via hash (e.g. teams.html#valorant)
-   - Player cards link to players/profile.html?handle=...
--------------------------------------------------------*/
+
 
 (async function () {
   const tabsWrap = document.querySelector('.tabs');

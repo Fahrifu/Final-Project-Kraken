@@ -1,9 +1,4 @@
-/* ----------------------------------------------------
-   UiA Kraken — Match Center Logic (match-center.js)
-   - Loads schedule.json, results.json, media.json
-   - Renders next match, upcoming list, results, VODs
-   - Tab switching
--------------------------------------------------------*/
+
 
 (function () {
   const nextMatchCard = document.getElementById('next-match-card');

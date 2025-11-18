@@ -1,9 +1,4 @@
-/* ----------------------------------------------------
-   UiA Kraken — News Hub Logic (news.js)
-   - Loads /data/news.json
-   - Category filter + search
-   - "Load more" pagination
--------------------------------------------------------*/
+
 
 (function () {
   const grid = document.getElementById('news-grid');

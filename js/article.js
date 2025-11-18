@@ -1,9 +1,4 @@
-/* ----------------------------------------------------
-   UiA Kraken — Article Template Logic (article.js)
-   - Reads ?slug= from URL
-   - Loads /data/news.json
-   - Renders selected article
--------------------------------------------------------*/
+
 
 (function () {
   const heroInner = document.getElementById('article-hero-inner');

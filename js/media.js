@@ -1,9 +1,4 @@
-/* ----------------------------------------------------
-   UiA Kraken — Media Hub Logic (media.js)
-   - Loads /data/media.json
-   - Filters by platform & game
-   - Search + "Load more"
--------------------------------------------------------*/
+
 
 (function () {
   const grid = document.getElementById('media-grid');

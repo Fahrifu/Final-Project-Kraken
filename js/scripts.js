@@ -1,9 +1,4 @@
-/* ----------------------------------------------------
-   UiA Kraken Esports — Global JS (scripts.js)
-   - Mobile nav
-   - Dynamic year
-   - Data loading from /data/*.json
--------------------------------------------------------*/
+
 
 /* ------------------------------
    Mobile navigation toggle
