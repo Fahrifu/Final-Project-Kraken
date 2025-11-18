@@ -1,0 +1,238 @@
+/* ----------------------------------------------------
+   UiA Kraken — Match Center Styles (match-center.css)
+-------------------------------------------------------*/
+
+.match-center-hero {
+  padding: 4rem 0 2rem;
+  background: linear-gradient(180deg, #0e0e16 0%, #08080d 100%);
+}
+
+.hero-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1.2fr);
+  gap: 2rem;
+  align-items: stretch;
+}
+
+.match-center-hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: .75rem;
+}
+
+.match-center-hero .lead {
+  color: var(--text-1);
+  max-width: 520px;
+}
+
+.next-match {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+/* Next match inner bits */
+.next-match-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin-bottom: .35rem;
+}
+
+.next-match-meta {
+  font-size: .9rem;
+  color: var(--text-1);
+  margin-bottom: .25rem;
+}
+
+.next-match-countdown {
+  margin-top: 1rem;
+  font-size: .95rem;
+  color: var(--text-1);
+}
+
+.next-match-countdown span {
+  font-weight: 700;
+}
+
+/* Tabs */
+.mc-tabs {
+  display: flex;
+  gap: .5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.mc-tab {
+  appearance: none;
+  border: none;
+  background: #171722;
+  color: var(--text-1);
+  padding: .6rem 1rem;
+  border-radius: .75rem .75rem 0 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.mc-tab[aria-selected="true"] {
+  background: var(--bg-2);
+  color: var(--kraken-white);
+}
+
+.mc-tab:hover {
+  background: #1d1d2a;
+}
+
+.mc-tab:focus-visible {
+  outline: 2px solid var(--kraken-red);
+  outline-offset: 2px;
+}
+
+/* Panels */
+.mc-panel {
+  border-radius: 0 1rem 1rem 1rem;
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  margin-bottom: 2rem;
+}
+
+.panel-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+/* Match list */
+.match-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.match-card {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) auto;
+  gap: 1rem;
+  align-items: center;
+  background: #14141c;
+  border-radius: .9rem;
+  border: 1px solid var(--border);
+  padding: 1rem 1.1rem;
+}
+
+.match-main-title {
+  font-weight: 700;
+}
+
+.match-meta-line {
+  font-size: .9rem;
+  color: var(--text-1);
+}
+
+.match-badges {
+  margin-bottom: .35rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: .25rem .55rem;
+  font-size: .75rem;
+  border-radius: .6rem;
+  background: #1b1b27;
+  border: 1px solid var(--border);
+  margin-right: .35rem;
+  margin-bottom: .25rem;
+}
+
+/* Result badge colors */
+.badge-result-win {
+  background: rgba(0, 180, 80, .12);
+  border-color: rgba(0, 180, 80, .6);
+  color: #7de6a5;
+}
+
+.badge-result-loss {
+  background: rgba(255, 60, 60, .12);
+  border-color: rgba(255, 60, 60, .7);
+  color: #ff9c9c;
+}
+
+.match-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .4rem;
+}
+
+.match-score {
+  font-weight: 700;
+}
+
+/* Maps list */
+.map-list {
+  margin-top: .4rem;
+  font-size: .8rem;
+  color: var(--text-1);
+}
+
+/* VODs */
+.vod-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.vod-card {
+  background: #14141c;
+  border-radius: .9rem;
+  border: 1px solid var(--border);
+  padding: .8rem .9rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.vod-platform {
+  font-size: .8rem;
+  color: var(--text-1);
+}
+
+.vod-title {
+  font-weight: 600;
+  font-size: .95rem;
+}
+
+.vod-meta {
+  font-size: .8rem;
+  color: var(--text-1);
+}
+
+/* Responsive */
+@media (max-width: 960px) {
+  .hero-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .next-match {
+    margin-top: 1rem;
+  }
+
+  .vod-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .match-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .match-right {
+    align-items: flex-start;
+  }
+
+  .vod-list {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

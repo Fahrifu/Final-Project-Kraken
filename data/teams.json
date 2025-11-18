@@ -1,0 +1,113 @@
+[
+  {
+    "key": "valorant",
+    "title": "VALORANT",
+    "status": "Active",
+    "coach": "Head Coach: TBD",
+    "badge": "valorant.png",
+    "roster": [
+      { "handle": "Nils", "name": "Lina N.", "role": "IGL / Controller", "avatar": "" },
+      { "handle": "RiftTide", "name": "Jonas A.", "role": "Controller", "avatar": "" },
+      { "handle": "Flashnet", "name": "Ola P.", "role": "Initiator", "avatar": "" },
+      { "handle": "Sightline", "name": "Ida V.", "role": "Sentinel", "avatar": "" },
+      { "handle": "Jetstream", "name": "Chris E.", "role": "Duelist", "avatar": "" }
+    ],
+    "staff": [
+      { "title": "Analyst", "name": "Mads K." },
+      { "title": "Manager", "name": "Sara H." }
+    ],
+    "achievements": [
+      "2025 Campus Clash — Playoffs",
+      "2025 Nordic Uni League — Week 6 leaders"
+    ],
+    "ctas": [
+      { "label": "Schedule", "href": "index.html#schedule" },
+      { "label": "Watch", "href": "#" }
+    ]
+  },
+  {
+    "key": "lol",
+    "title": "League of Legends",
+    "status": "Active",
+    "coach": "Head Coach: TBD",
+    "badge": "lol.png",
+    "roster": [
+      { "handle": "Coral", "name": "Sara H.", "role": "Mid", "avatar": "" },
+      { "handle": "DeepSea", "name": "Mads K.", "role": "Support", "avatar": "" },
+      { "handle": "NorthFang", "name": "Even L.", "role": "Top", "avatar": "" },
+      { "handle": "RiverRun", "name": "Kari S.", "role": "Jungle", "avatar": "" },
+      { "handle": "TideCarry", "name": "Henrik U.", "role": "ADC", "avatar": "" }
+    ],
+    "staff": [
+      { "title": "Manager", "name": "Eirik S." }
+    ],
+    "achievements": ["2025 Norway Open — Group A"],
+    "ctas": [
+      { "label": "Schedule", "href": "index.html#schedule" }
+    ]
+  },
+  {
+    "key": "cs2",
+    "title": "Counter-Strike 2",
+    "status": "Active",
+    "coach": "Coach: TBD",
+    "badge": "cs2.png",
+    "roster": [
+      { "handle": "Leviathan", "name": "Eirik S.", "role": "Entry", "avatar": "" },
+      { "handle": "Abyss", "name": "Emma R.", "role": "AWPer", "avatar": "" },
+      { "handle": "Harbor", "name": "Oskar J.", "role": "IGL", "avatar": "" },
+      { "handle": "Crank", "name": "Sindre P.", "role": "Rifler", "avatar": "" },
+      { "handle": "Anchorite", "name": "Tobias B.", "role": "Anchor", "avatar": "" }
+    ],
+    "staff": [
+      { "title": "Analyst", "name": "Jonas A." }
+    ],
+    "achievements": ["2025 Norway Open — Qualifier"],
+    "ctas": [
+      { "label": "Schedule", "href": "index.html#schedule" },
+      { "label": "Results", "href": "#" }
+    ]
+  },
+    {
+    "key": "ow2",
+    "title": "Overwatch 2",
+    "status": "Active",
+    "coach": "Coach: TBD",
+    "badge": "cs2.png",
+    "roster": [
+      { "handle": "Leviathan", "name": "Eirik S.", "role": "Entry", "avatar": "" },
+      { "handle": "Abyss", "name": "Emma R.", "role": "AWPer", "avatar": "" },
+      { "handle": "Harbor", "name": "Oskar J.", "role": "IGL", "avatar": "" },
+      { "handle": "Crank", "name": "Sindre P.", "role": "Rifler", "avatar": "" },
+      { "handle": "Anchorite", "name": "Tobias B.", "role": "Anchor", "avatar": "" }
+    ],
+    "staff": [
+      { "title": "Analyst", "name": "Jonas A." }
+    ],
+    "achievements": ["2025 Norway Open — Qualifier"],
+    "ctas": [
+      { "label": "Schedule", "href": "index.html#schedule" },
+      { "label": "Results", "href": "#" }
+    ]
+  },
+    {
+    "key": "apex",
+    "title": "Apex Legends",
+    "status": "Active",
+    "coach": "Coach: TBD",
+    "badge": "cs2.png",
+    "roster": [
+      { "handle": "Leviathan", "name": "Eirik S.", "role": "Entry", "avatar": "" },
+      { "handle": "Abyss", "name": "Emma R.", "role": "AWPer", "avatar": "" },
+      { "handle": "Harbor", "name": "Oskar J.", "role": "IGL", "avatar": "" }
+    ],
+    "staff": [
+      { "title": "Analyst", "name": "Jonas A." }
+    ],
+    "achievements": ["2025 Norway Open — Qualifier"],
+    "ctas": [
+      { "label": "Schedule", "href": "index.html#schedule" },
+      { "label": "Results", "href": "#" }
+    ]
+  }
+]

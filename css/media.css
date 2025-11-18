@@ -1,0 +1,150 @@
+/* ----------------------------------------------------
+   UiA Kraken — Media Hub Styles (media.css)
+-------------------------------------------------------*/
+
+.media-hero {
+  padding: 4rem 0 2rem;
+  background: linear-gradient(180deg, #10101a 0%, #08080d 100%);
+}
+
+.media-hero-inner h1 {
+  font-size: 2.4rem;
+  margin-bottom: .75rem;
+}
+
+.media-hero-inner .lead {
+  color: var(--text-1);
+  max-width: 560px;
+}
+
+/* Controls */
+.media-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+}
+
+.control-group label {
+  font-size: .85rem;
+  color: var(--text-1);
+}
+
+#media-platform,
+#media-game,
+#media-search {
+  background: #111119;
+  color: var(--text-0);
+  border: 1px solid var(--border);
+  border-radius: .6rem;
+  padding: .55rem .75rem;
+  min-width: 180px;
+}
+
+/* Grid */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 1100px) {
+  .media-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 800px) {
+  .media-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .media-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Card */
+.media-card {
+  background: var(--bg-1);
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow);
+}
+
+.media-thumb-wrap {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 */
+  background: #181821;
+}
+
+.media-thumb {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-chip {
+  position: absolute;
+  left: .6rem;
+  top: .6rem;
+  padding: .25rem .55rem;
+  font-size: .75rem;
+  border-radius: .75rem;
+  background: rgba(0, 0, 0, .6);
+  color: var(--kraken-white);
+}
+
+.media-chip.game {
+  top: auto;
+  bottom: .6rem;
+}
+
+.media-body {
+  padding: .8rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+.media-title {
+  font-size: .98rem;
+  font-weight: 600;
+}
+
+.media-meta {
+  font-size: .8rem;
+  color: var(--text-1);
+}
+
+.media-footer {
+  padding: 0 1rem .9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .85rem;
+}
+
+.media-footer a {
+  color: var(--kraken-red);
+}
+
+.media-footer a:hover {
+  text-decoration: underline;
+}

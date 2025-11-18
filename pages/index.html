@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>UiA Kraken Esports</title>
+  <meta name="description" content="Official website template for UiA Kraken Esports — schedule, roster, news, and partners." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="UiA Kraken Esports Home">
+        <img class="logo" src="../assets/images/logo/logo-mark.png" alt="">
+        <span class="brand-text">UiA Kraken </span>
+      </a>
+
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" role="navigation">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="index.html#schedule">Schedule</a></li>
+          <li><a href="index.html#roster">Roster</a></li>
+          <li><a href="partners.html">Partners</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="match-center.html">Match Center</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1><span class="accent">Release the Kraken.</span><br/>Dominate the Rift and the Stage.</h1>
+          <p class="lead">UiA Kraken Esports — competitive teams, elite talent, and a relentless drive to win.</p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#schedule">View Schedule</a>
+            <a class="btn btn-outline" href="#roster">Meet the Roster</a>
+          </div>
+        </div>
+        <div class="hero-art"><div class="blob"></div></div>
+      </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section id="schedule" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Upcoming Matches</h2>
+          <p class="section-sub">Catch UiA Kraken across leagues and titles.</p>
+        </div>
+
+        <div id="schedule-grid" class="cards-grid" role="list" aria-live="polite" aria-busy="true"></div>
+      </div>
+    </section>
+
+    <!-- ROSTER -->
+    <section id="roster" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Roster</h2>
+          <p class="section-sub">Players representing the Kraken across titles.</p>
+        </div>
+
+        <div id="roster-grid" class="cards-grid roster-grid" role="list" aria-live="polite" aria-busy="true"></div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Latest News</h2>
+          <p class="section-sub">Announcements, recaps, and features.</p>
+        </div>
+
+        <div id="news-list" class="news-list" role="list" aria-live="polite" aria-busy="true"></div>
+
+        <div class="actions-center">
+          <button id="load-more-news" class="btn btn-outline">Load more</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS -->
+    <section id="partners" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Partners</h2>
+          <p class="section-sub">Brands powering the Kraken.</p>
+        </div>
+
+        <ul id="partners-grid" class="partners-grid" role="list" aria-live="polite" aria-busy="true"></ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-text">UiA Kraken Esports</span>
+        <p class="muted small">&copy; <span id="year"></span> UiA Kraken. All rights reserved.</p>
+      </div>
+
+      <nav class="social-nav">
+        <ul>
+          <li><a href="#"><svg viewBox="0 0 24 24"><path d="M4 4l8 9-8 7h3l6-5 5 5h4l-8-9 8-7h-3l-6 5-5-5H4z"/></svg></a></li>
+          <li><a href="#"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5z"/></svg></a></li>
+          <li><a href="#"><svg viewBox="0 0 24 24"><path d="M4 3h16v10l-5 5h-4l-3 3v-3H4V3z"/></svg></a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="../js/scripts.js" defer></script>
+</body>
+</html>

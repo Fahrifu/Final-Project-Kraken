@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Match Center — UiA Kraken Esports</title>
+  <meta name="description" content="Follow UiA Kraken Esports matches — upcoming schedule, results, and VODs." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="../css/match-center.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="UiA Kraken Esports Home">
+        <img class="logo" src="../assets/images/logo/logo-mark.png" alt="">
+        <span class="brand-text">
+          UiA Kraken 
+        </span>
+      </a>
+
+      <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="primary-nav">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" role="navigation">
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#schedule">Schedule</a></li>
+          <li><a href="index.html#roster">Roster</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a class="active" aria-current="page" href="partners.html">Partners</a></li>
+          <li><a href="teams.html">Teams</a></li>
+          <li><a href="match-center.html">Match Center</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+    <!-- Hero / Next Match -->
+    <section class="match-center-hero">
+      <div class="container">
+        <div class="hero-layout">
+          <div>
+            <h1><span class="accent">Match Center.</span> Every game in one place.</h1>
+            <p class="lead">See upcoming matches, recent results, and VODs for UiA Kraken Esports.</p>
+          </div>
+
+          <div id="next-match-card" class="card next-match" aria-live="polite" aria-busy="true">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tabs -->
+    <section class="section">
+      <div class="container">
+        <div class="mc-tabs" role="tablist" aria-label="Match center sections">
+          <button class="mc-tab" id="tab-upcoming" role="tab" aria-selected="true" aria-controls="panel-upcoming">Upcoming</button>
+          <button class="mc-tab" id="tab-results" role="tab" aria-selected="false" aria-controls="panel-results" tabindex="-1">Results</button>
+          <button class="mc-tab" id="tab-vods" role="tab" aria-selected="false" aria-controls="panel-vods" tabindex="-1">VODs</button>
+        </div>
+
+        <section id="panel-upcoming" class="mc-panel" role="tabpanel" aria-labelledby="tab-upcoming">
+          <h2 class="panel-title">Upcoming Matches</h2>
+          <div id="upcoming-list" class="match-list" aria-live="polite" aria-busy="true"></div>
+        </section>
+
+        <section id="panel-results" class="mc-panel" role="tabpanel" aria-labelledby="tab-results" hidden>
+          <h2 class="panel-title">Results</h2>
+          <div id="results-list" class="match-list" aria-live="polite" aria-busy="true"></div>
+        </section>
+
+        <section id="panel-vods" class="mc-panel" role="tabpanel" aria-labelledby="tab-vods" hidden>
+          <h2 class="panel-title">VODs & Highlights</h2>
+          <div id="vods-list" class="vod-list" aria-live="polite" aria-busy="true"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-text">UiA Kraken Esports</span>
+        <p class="muted small">&copy; <span id="year"></span> UiA Kraken. All rights reserved.</p>
+      </div>
+
+      <nav class="social-nav">
+        <ul>
+          <li><a href="#"><svg viewBox="0 0 24 24"><path d="M4 4l8 9-8 7h3l6-5 5 5h4l-8-9 8-7h-3l-6 5-5-5H4z"/></svg></a></li>
+          <li><a href="#"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5z"/></svg></a></li>
+          <li><a href="#"><svg viewBox="0 0 24 24"><path d="M4 3h16v10l-5 5h-4l-3 3v-3H4V3z"/></svg></a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="../js/scripts.js" defer></script>
+  <script src="../js/match-center.js" defer></script>
+</body>
+</html>

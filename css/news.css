@@ -1,0 +1,135 @@
+/* ----------------------------------------------------
+   UiA Kraken — News Hub Styles (news.css)
+-------------------------------------------------------*/
+
+.news-hero {
+  padding: 4rem 0 2rem;
+  background: linear-gradient(180deg, #0f0f18 0%, #08080d 100%);
+}
+
+.news-hero-inner h1 {
+  font-size: 2.4rem;
+  margin-bottom: .75rem;
+}
+
+.news-hero-inner .lead {
+  color: var(--text-1);
+  max-width: 560px;
+}
+
+/* Controls */
+.news-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: flex-end;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  gap: .35rem;
+}
+
+.control-group label {
+  font-size: .85rem;
+  color: var(--text-1);
+}
+
+#news-category,
+#news-search {
+  background: #111119;
+  color: var(--text-0);
+  border: 1px solid var(--border);
+  border-radius: .6rem;
+  padding: .55rem .75rem;
+  min-width: 190px;
+}
+
+/* Grid */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+@media (max-width: 980px) {
+  .news-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .news-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Card */
+.news-card {
+  background: var(--bg-1);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card-thumb {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  background: #14141c;
+}
+
+.news-card-body {
+  padding: 1rem 1.1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .4rem;
+}
+
+.news-card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .8rem;
+  color: var(--text-1);
+  gap: .5rem;
+}
+
+.news-card-category {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--text-1);
+}
+
+.news-card h2 {
+  font-size: 1rem;
+  margin: .1rem 0;
+}
+
+.news-card-excerpt {
+  font-size: .9rem;
+  color: var(--text-1);
+}
+
+.news-card-footer {
+  padding: 0 1.1rem 1rem;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-card-footer a {
+  font-size: .9rem;
+  color: var(--kraken-red);
+}
+
+.news-card-footer a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "title": "UiA Kraken vs Nordic Ravens",
+    "game": "Valorant",
+    "datetime": "2025-11-10T20:00:00",
+    "league": "Campus Clash",
+    "stage": "Week 4",
+    "result": "Win",
+    "score": "2–0",
+    "opponent": "Nordic Ravens",
+    "maps": [
+      { "name": "Ascent", "score": "13–7" },
+      { "name": "Lotus", "score": "13–10" }
+    ],
+    "vodUrl": "#"
+  },
+  {
+    "title": "UiA Kraken vs Fjord Five",
+    "game": "Counter-Strike 2",
+    "datetime": "2025-10-30T19:30:00",
+    "league": "Norway Open",
+    "stage": "Group A",
+    "result": "Loss",
+    "score": "0–2",
+    "opponent": "Fjord Five",
+    "maps": [
+      { "name": "Mirage", "score": "9–13" },
+      { "name": "Ancient", "score": "11–13" }
+    ],
+    "vodUrl": "#"
+  },
+  {
+    "title": "UiA Kraken vs Arctic Foxes",
+    "game": "League of Legends",
+    "datetime": "2025-10-22T18:00:00",
+    "league": "Nordic Uni League",
+    "stage": "Week 3",
+    "result": "Win",
+    "score": "1–0",
+    "opponent": "Arctic Foxes",
+    "maps": [
+      { "name": "Summoner's Rift", "score": "Kill diff +12" }
+    ],
+    "vodUrl": "#"
+  }
+]

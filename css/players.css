@@ -1,0 +1,172 @@
+/* ----------------------------------------------------
+   UiA Kraken — Player Profile Styles (players.css)
+-------------------------------------------------------*/
+
+.player-hero {
+  padding: 3.5rem 0 2rem;
+  background: linear-gradient(180deg, #10101a 0%, #08080d 100%);
+}
+
+.player-hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(280px, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.player-main-meta {
+  font-size: .9rem;
+  color: var(--text-1);
+}
+
+.player-main-meta span {
+  margin-right: .6rem;
+}
+
+.player-handle {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.player-name {
+  font-size: 1rem;
+  color: var(--text-1);
+  margin-bottom: .4rem;
+}
+
+.player-tagline {
+  margin-top: .5rem;
+  color: var(--text-1);
+}
+
+.player-hero-avatar-wrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.player-hero-avatar {
+  width: 220px;
+  height: 220px;
+  border-radius: 1.5rem;
+  border: 1px solid var(--border);
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+/* Content layout */
+.player-section {
+  padding-top: 2rem;
+}
+
+.player-layout {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 2.2fr) minmax(220px, 1.1fr);
+  gap: 2rem;
+}
+
+/* Bio */
+.player-bio p {
+  margin-bottom: 1rem;
+}
+
+/* Highlights */
+.player-highlights {
+  margin-top: 2rem;
+}
+
+.player-highlights h3 {
+  margin-bottom: .7rem;
+}
+
+.player-highlights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.player-highlights li + li {
+  margin-top: .35rem;
+}
+
+/* Sidebar */
+.player-sidebar-card {
+  background: var(--bg-1);
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  padding: 1rem 1.1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.player-sidebar-card h3 {
+  font-size: .95rem;
+  margin-bottom: .5rem;
+}
+
+.player-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .5rem .75rem;
+}
+
+.player-stat-label {
+  font-size: .8rem;
+  color: var(--text-1);
+}
+
+.player-stat-value {
+  font-size: .95rem;
+  font-weight: 600;
+}
+
+.player-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+}
+
+.player-tags .badge {
+  font-size: .75rem;
+  padding: .25rem .55rem;
+}
+
+.player-agents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  font-size: .85rem;
+}
+
+/* Socials */
+.player-socials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin-top: .4rem;
+}
+
+.player-socials a {
+  font-size: .85rem;
+  color: var(--kraken-red);
+}
+
+.player-socials a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .player-hero-inner {
+    grid-template-columns: minmax(0, 1fr);
+    text-align: left;
+  }
+
+  .player-hero-avatar-wrap {
+    justify-content: flex-start;
+  }
+
+  .player-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "handle": "StormKraken",
+    "name": "Lina N.",
+    "role": "IGL • VAL",
+    "country": "NO",
+    "avatar": "",
+    "tags": ["Duelist", "Shot-caller"]
+  },
+  {
+    "handle": "DeepSea",
+    "name": "Mads K.",
+    "role": "Support • LoL",
+    "country": "NO",
+    "avatar": "",
+    "tags": ["Vision", "Roaming"]
+  },
+  {
+    "handle": "Leviathan",
+    "name": "Eirik S.",
+    "role": "Entry • CS2",
+    "country": "NO",
+    "avatar": "",
+    "tags": ["Entry", "Space Maker"]
+  },
+  {
+    "handle": "Coral",
+    "name": "Sara H.",
+    "role": "Mid • LoL",
+    "country": "SE",
+    "avatar": "",
+    "tags": ["Control Mage"]
+  },
+  {
+    "handle": "RiftTide",
+    "name": "Jonas A.",
+    "role": "Controller • VAL",
+    "country": "NO",
+    "avatar": "",
+    "tags": ["Smokes", "Lurk"]
+  },
+  {
+    "handle": "Abyss",
+    "name": "Emma R.",
+    "role": "AWPer • CS2",
+    "country": "DK",
+    "avatar": "",
+    "tags": ["Clutch", "Anchor"]
+  }
+]

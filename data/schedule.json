@@ -1,0 +1,29 @@
+[
+  {
+    "title": "UiA Kraken vs Valkyrie Esports",
+    "game": "League of Legends",
+    "datetime": "2025-11-20T19:00:00",
+    "league": "Nordic Uni League",
+    "stage": "Week 6",
+    "stream": "#",
+    "venue": "Online"
+  },
+  {
+    "title": "UiA Kraken vs Polar Owls",
+    "game": "Valorant",
+    "datetime": "2025-11-25T20:00:00",
+    "league": "Campus Clash",
+    "stage": "Quarterfinal",
+    "stream": "#",
+    "venue": "UiA Arena"
+  },
+  {
+    "title": "UiA Kraken vs Fjord Five",
+    "game": "Counter-Strike 2",
+    "datetime": "2025-12-02T18:30:00",
+    "league": "Norway Open",
+    "stage": "Group A",
+    "stream": "#",
+    "venue": "Online"
+  }
+]

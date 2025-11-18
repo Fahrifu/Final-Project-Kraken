@@ -1,0 +1,158 @@
+[
+  {
+    "handle": "Nils",
+    "name": "Nils",
+    "role": "IGL / Controller",
+    "game": "Valorant",
+    "country": "NO",
+    "avatar": "Nils.jpg",
+    "bio": "Nils “Nilsw” leads the UiA Kraken Valorant roster as in-game leader, known for decisive mid-round calls and calm under pressure.",
+    "joined": "2024-09-01",
+    "socials": {
+      "twitter": "#",
+      "twitch": "#",
+      "youtube": "#"
+    },
+    "tags": ["IGL", "Controller", "Leader"],
+    "stats": {
+      "kda": "0.9",
+      "hsRate": "19%",
+      "rating": "1.08"
+    },
+    "agentPool": ["Omen", "Brimstone", "Astra"],
+    "highlights": [
+      { "title": "Campus Clash — Semi Final Clutch", "url": "#", "platform": "YouTube" }
+    ]
+  },
+  {
+    "handle": "DeepSea",
+    "name": "Mads K.",
+    "role": "Support",
+    "game": "League of Legends",
+    "country": "NO",
+    "avatar": "",
+    "bio": "Mads “DeepSea” K. anchors the bot lane with vision control and map awareness.",
+    "joined": "2024-01-15",
+    "socials": {
+      "twitter": "#",
+      "twitch": "#"
+    },
+    "tags": ["Support", "Shot-calling"],
+    "stats": {
+      "kda": "3.1",
+      "visionScore": "65",
+      "winRate": "62%"
+    },
+    "agentPool": ["Thresh", "Nautilus", "Rakan"],
+    "highlights": []
+  },
+  {
+    "handle": "Leviathan",
+    "name": "Eirik S.",
+    "role": "Entry",
+    "game": "CS2",
+    "country": "NO",
+    "avatar": "",
+    "bio": "Eirik “Leviathan” S. is the primary entry for the CS2 roster, opening space on T-side.",
+    "joined": "2023-10-01",
+    "socials": {
+      "twitter": "#"
+    },
+    "tags": ["Entry", "Aggressive"],
+    "stats": {
+      "rating": "1.09",
+      "entrySuccess": "54%",
+      "adr": "82"
+    },
+    "agentPool": [],
+    "highlights": []
+  },
+  {
+    "handle": "Coral",
+    "name": "Sara H.",
+    "role": "Mid",
+    "game": "League of Legends",
+    "country": "SE",
+    "avatar": "",
+    "bio": "Sara “Coral” H. controls tempo from mid lane with strong laning and teamfight presence.",
+    "joined": "2024-03-10",
+    "socials": {
+      "twitter": "#",
+      "twitch": "#"
+    },
+    "tags": ["Control Mages", "Mid"],
+    "stats": {
+      "kda": "4.0",
+      "csPerMin": "8.4",
+      "dmgShare": "27%"
+    },
+    "agentPool": ["Orianna", "Azir", "Annie"],
+    "highlights": []
+  },
+  {
+    "handle": "RiftTide",
+    "name": "Jonas A.",
+    "role": "Controller",
+    "game": "Valorant",
+    "country": "NO",
+    "avatar": "",
+    "bio": "Jonas “RiftTide” A. runs smokes and lurk timings for the Valorant roster.",
+    "joined": "2024-06-20",
+    "socials": {
+      "twitter": "#"
+    },
+    "tags": ["Controller", "Lurker"],
+    "stats": {
+      "kda": "1.05",
+      "rating": "0.98"
+    },
+    "agentPool": ["Brimstone", "Viper"],
+    "highlights": []
+  },
+  {
+    "handle": "Abyss",
+    "name": "Emma R.",
+    "role": "AWPer",
+    "game": "CS2",
+    "country": "DK",
+    "avatar": "",
+    "bio": "Emma “Abyss” R. joined as primary AWPer ahead of Norway Open, known for clutch holds.",
+    "joined": "2025-10-01",
+    "socials": {
+      "twitter": "#",
+      "twitch": "#"
+    },
+    "tags": ["AWPer", "Anchor"],
+    "stats": {
+      "rating": "1.12",
+      "awpKillsPerRound": "0.32"
+    },
+    "agentPool": [],
+    "highlights": [
+      { "title": "Norway Open — 1v3 AWP clutch", "url": "#", "platform": "YouTube" }
+    ]
+  },
+    {
+    "handle": "",
+    "name": "",
+    "role": "",
+    "game": "",
+    "country": "",
+    "avatar": "",
+    "bio": "",
+    "joined": "",
+    "socials": {
+      "twitter": "#",
+      "twitch": "#"
+    },
+    "tags": ["AWPer", "Anchor"],
+    "stats": {
+      "rating": "1.12",
+      "awpKillsPerRound": "0.32"
+    },
+    "agentPool": [],
+    "highlights": [
+      { "title": "Norway Open — 1v3 AWP clutch", "url": "#", "platform": "YouTube" }
+    ]
+  }
+]
