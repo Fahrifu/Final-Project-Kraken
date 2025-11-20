@@ -4,9 +4,9 @@
     "title": "VALORANT",
     "status": "Active",
     "coach": "Head Coach: TBD",
-    "badge": "valorant.png",
+    "badge": "valorant.jpg",
     "roster": [
-      { "handle": "Nils", "name": "Lina N.", "role": "IGL / Controller", "avatar": "" },
+      { "handle": "Nils", "name": "Nils", "role": "IGL / Controller", "avatar": "" },
       { "handle": "RiftTide", "name": "Jonas A.", "role": "Controller", "avatar": "" },
       { "handle": "Flashnet", "name": "Ola P.", "role": "Initiator", "avatar": "" },
       { "handle": "Sightline", "name": "Ida V.", "role": "Sentinel", "avatar": "" },
