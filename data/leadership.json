@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Ronja Wilhelmina",
+    "role": "Chair of the Board",
+    "type": "board",
+    "photo": "Ronja.png",
+    "bio": "Responsible for overall strategic direction of UiA Kraken Esports and alignment with university goals.",
+    "focus": ["Governance", "Long-term strategy", "University relations"],
+    "socials": {
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Kristoffer Jornil",
+    "role": "Board Member – Competitive",
+    "type": "board",
+    "photo": "board-jonas.jpg",
+    "bio": "Oversees competitive performance and support structure for all rosters.",
+    "focus": ["Performance", "Coaching structure", "Scouting"],
+    "socials": {
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Zahir Mohamed",
+    "role": "Board Member – Community & Events",
+    "type": "board",
+    "photo": "board-sara.jpg",
+    "bio": "Leads student community initiatives, on-campus events, and fan engagement.",
+    "focus": ["Community", "Events", "Volunteers"],
+    "socials": {
+      "linkedin": "#"
+    }
+  },
+  {
+    "name": "Gard",
+    "role": "Technology Partner",
+    "type": "stakeholder",
+    "photo": "stakeholder-wavetech.jpg",
+    "bio": "Provides gaming peripherals and hardware support for UiA Kraken facilities and rosters.",
+    "focus": ["Equipment", "Product collaboration"],
+    "socials": {
+      "website": "#"
+    }
+  },
+  {
+    "name": "UiA Student Welfare",
+    "role": "Institutional Stakeholder",
+    "type": "stakeholder",
+    "photo": "stakeholder-welfare.jpg",
+    "bio": "Supports student wellbeing initiatives and responsible competition guidelines.",
+    "focus": ["Wellbeing", "Policy"],
+    "socials": {
+      "website": "#"
+    }
+  }
+]
